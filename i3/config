@@ -49,6 +49,7 @@ bindsym $mod+Return exec --no-startup-id sakura
 # start chrome
 bindsym $mod+c exec --no-startup-id chromium 
 
+#bindsym --release $mod+Shift+a exec "scs.sh -s ~/Downloads/" 
 
 # start variety
 bindsym $mod+Shift+v exec --no-startup-id variety
@@ -212,3 +213,4 @@ exec_always --no-startup-id compton
 exec --no-startup-id . ~/.config/polybar/launch.sh
 exec --no-startup-id . ~/scripts/start.sh
 exec_always --no-startup-id redshift -l 31:121
+exec_always --no-startup-id xmodmap ~/.xmodmap 
