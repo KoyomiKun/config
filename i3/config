@@ -213,4 +213,6 @@ exec_always --no-startup-id compton
 exec --no-startup-id . ~/.config/polybar/launch.sh
 exec --no-startup-id . ~/scripts/start.sh
 exec_always --no-startup-id redshift -l 31:121
-exec_always --no-startup-id xmodmap ~/.xmodmap 
+
+for_window [instance="QQ.exe"] floating enable
+for_window [instance="QQ.exe"] border none
